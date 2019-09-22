@@ -1,0 +1,20 @@
+Jenkins Set Environment Variables
+**********************************
+
+Search "jenkins environment  variables" in google
+
+look like in below sample code in free style job with Execute shell
+
+Job --> configure --> Build --> Execute shell
+
+
+echo "BUILD_NUMBER is $BUILD_NUMBER"
+echo "BUILD_ID is $BUILD_ID"
+echo "JAVA_HOME path is $JAVA_HOME"
+
+
+Jenkins custom global environment variable
+******************************************
+
+Manage jenkins --> Configure system --> Global properties
+
